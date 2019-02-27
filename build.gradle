@@ -22,3 +22,13 @@ subprojects {
 
 
 }
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.owasp:dependency-check-gradle:4.0.1'
+    }
+}
+apply plugin: 'org.owasp.dependencycheck'
