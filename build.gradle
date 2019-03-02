@@ -23,7 +23,7 @@ subprojects {
 
 }
 
-buildscript {
+/*buildscript {
     repositories {
         mavenCentral()
     }
@@ -31,4 +31,4 @@ buildscript {
         classpath 'org.owasp:dependency-check-gradle:4.0.1'
     }
 }
-apply plugin: 'org.owasp.dependencycheck'
+apply plugin: 'org.owasp.dependencycheck'*/
